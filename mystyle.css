@@ -25,9 +25,16 @@ p {
   color: blue;
 }
 
+.flexbox {
+  display: flex;
+  align-items: baseline;
+}
+
 .paragraph {
-  width: 70%;
-  float: right;
+  /* width: 70%;
+  float: right; */
+
+  flex: 70;
   margin-top: 0;
   font-size: 20px;
   color: #795e13;
@@ -35,8 +42,11 @@ p {
 }
 
 .rightBar {
-  width: 26%;
-  float: left;
+  /* width: 26%;
+  float: left; */
+
+  flex: 26;
+  margin-right: 30px;
 }
 
 .rightBar p {
