@@ -11,6 +11,8 @@
   text-align: center;
   margin: 0;
   color: aliceblue;
+  position: sticky;
+  top: 0;
 }
 
 .imageLCD {
@@ -97,8 +99,10 @@ p {
 
   width: 100%;
   padding: 20px;
-  margin-top: 73px;
-
+  margin-top: 74px;
+  margin-bottom: 0;
+  position: sticky;
+  bottom: 0;
   /* position: fixed; */
   /* left: 0;
     bottom: 0;
@@ -106,4 +110,24 @@ p {
     
   
     text-align: center; */
+}
+@media only screen and (min-width: 1000px) and (max-width: 1800px) {
+  .footer {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-color: rgb(148, 85, 27);
+
+    width: 100%;
+    padding: 20px;
+    margin-top: 200px;
+    margin-bottom: 0;
+    /* position: fixed; */
+    /* left: 0;
+      bottom: 0;
+     
+      
+    
+      text-align: center; */
+  }
 }
